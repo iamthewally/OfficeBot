@@ -1,6 +1,17 @@
 # OfficeBot
 LLM chat interface built in Streamlit
 
+Install:
+1) Clone the repo into a folder
+2) cd to folder from [1]
+3) rename the word "example" out of the .yaml files
+4) put your info into the .yaml files following the existing structure
+
+Run: 
+1) cd to folder with source
+2) streamlit run .\main.py
+3) site will automatically load in your default browser, terminal will give you links for connecting locally and on the network.
+
 Cool features:
   1) I made it
   2) The "discussion" field is a convenient place to drop a document and have a chat with the AI about it, no worries that it will fall off the back of the conversation or get summarized into oblivion.  It will always be appended right after your recent chat message
@@ -20,3 +31,4 @@ Roadmap:
   - Docker image for easier deployment
   - Ability to hide front end interface elements (like model selection), helps deployment
   CAS/Single sign on
+
