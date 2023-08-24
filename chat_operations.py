@@ -34,7 +34,7 @@ def generate_response(user_input, chat_history, model_name, character, selected_
     prompt = character['prompt'] + selected_systems_data + discussion_text
     messages = [{"role": "system", "content": prompt}]
     messages.append({"role": "system", "content": character['introduction']})
-    messages += [{"role": "user" if sender == "Human" else "assistant", "content": message} for message, _ in chat_history]
+    messages += [{"role": "user" if sender == "Human" else "assistant", "content": message} for message, sender in chat_history]
     messages.append({"role": "user", "content": user_input})
 
     response_generator = openai.ChatCompletion.create(
@@ -52,8 +52,8 @@ def generate_response(user_input, chat_history, model_name, character, selected_
 
 def display_chat_history(chat_history, character):
     for message, sender in chat_history:
-        if sender == "User":
-            color = "#85D7FF"  # Dark blue for user
+        if ((sender == "Human")|(sender == "user")):
+            color = "#3C4043"  # Dark gray for user
             bubble_css = "display: inline-block; background-color: {}; border-radius: 10px; padding: 6px 20px; margin-bottom: 2px; color: white; text-align: right".format(color)
             st.markdown(
                 f'''
@@ -63,7 +63,7 @@ def display_chat_history(chat_history, character):
                 </div>
                 ''', unsafe_allow_html=True)
         else:  # Bot
-            color = "#3C4043"  # Dark gray for bot
+            color = "#660000"  # Dark blue for bot
             bubble_css = "display: inline-block; background-color: {}; border-radius: 10px; padding: 6px 20px; margin-bottom: 2px; color: white".format(color)
             st.markdown(
                 f'''

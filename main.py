@@ -1,7 +1,7 @@
 # filename: main.py
 
 from file_operations import load_systems, load_characters, load_models, setup_openai
-from chat_operations import display_chat_history, calculate_token_count
+from chat_operations import display_chat_history, calculate_token_count, generate_response
 from interaction_handlers import handle_user_input, process_user_interaction
 
 import streamlit as st

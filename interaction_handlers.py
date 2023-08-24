@@ -1,7 +1,7 @@
 # filename: interaction_handlers.py
 
 import streamlit as st
-from chat_operations import calculate_token_count, trim_chat_history
+from chat_operations import calculate_token_count, trim_chat_history, generate_response
 from file_operations import load_models, load_systems, load_characters
 
 
