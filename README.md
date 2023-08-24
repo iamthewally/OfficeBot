@@ -1,5 +1,9 @@
 # OfficeBot
-LLM chatbot interface
+LLM chatbot
+Intended to have a clean and simple design for office deployment
+
+Screenshot:
+![image](https://github.com/iamthewally/OfficeBot/assets/31074602/be1cf684-ad63-4535-89ce-a18c725255bf)
 
 Install:
 1) Clone the repo into a folder
