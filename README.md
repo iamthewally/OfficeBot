@@ -9,14 +9,14 @@ Cool features:
 Currently works with OpenAI APIs.
 
 Roadmap:
-  Add requirements.txt with pre-reqs.  
+  - Add requirements.txt with pre-reqs.  
     - For now try to launch and install whatever is missing.  Repeat.  Its just as good...
-  Build out extensions 
-  - slash /commands to get the system's attention
-  Local LLM usage (targetting starcoder first)
-  Tool usage allowing LLM to query outside database for results (classic SQL)
-  add basic web page view support to query on a documentation page
-  Make it stream tokens
-  Docker image or easier deployment
-  Back end settings to hide front end interface elements (like model selection)
+  - Build out extensions 
+    - slash /commands to get the system's attention
+  - Local LLM usage (targetting starcoder first), option to keep everything private
+  - Tool usage allowing LLM to query outside database for results (classic SQL)
+  - extension to run http get on a URL
+  - Make it stream tokens rather than block
+  - Docker image for easier deployment
+  - Ability to hide front end interface elements (like model selection), helps deployment
   CAS/Single sign on
