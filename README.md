@@ -1,5 +1,5 @@
 # OfficeBot
-LLM chat interface built in Streamlit
+LLM chatbot interface
 
 Install:
 1) Clone the repo into a folder
@@ -35,3 +35,4 @@ Roadmap:
   CAS/Single sign on
   - add summaries for long chats rather than removing messages in the middle
   - move colors/css/etc to config files for deployment
+  - add default model for each character card
