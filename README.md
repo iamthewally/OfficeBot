@@ -20,8 +20,10 @@ Cool features:
 Currently works with OpenAI APIs.
 
 Roadmap:
+  - Get accurate token counts using API rather than estimating it to be 1 token per word
   - Add requirements.txt with pre-reqs.  
-    - For now try to launch and install whatever is missing.  Repeat.  Its just as good...
+    - For now try to launch and install whatever is missing.  Repeat.  don't worry it'll be cool...
+  - Conda env
   - Build out extensions 
     - slash /commands to get the system's attention
   - Local LLM usage (targetting starcoder first), option to keep everything private
@@ -31,4 +33,4 @@ Roadmap:
   - Docker image for easier deployment
   - Ability to hide front end interface elements (like model selection), helps deployment
   CAS/Single sign on
-
+  - add summaries for long chats rather than removing messages in the middle
