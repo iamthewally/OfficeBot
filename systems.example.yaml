@@ -1,0 +1,11 @@
+systems:
+  msexcel:
+    name: "Excel"
+    data: |
+      List out some information about this product/project/task
+  sharepoint:
+    name: "SharePoint"
+    data: |
+      This is where I would put information about sharepoint, maybe some paths and URLs we use internally.
+      Any specific data thing I might ask about and want regurgitated back.
+      I've even got some filled with Table/Field/Relations for SQL queries and REST API documentation for generating code.
