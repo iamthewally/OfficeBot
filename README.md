@@ -34,3 +34,4 @@ Roadmap:
   - Ability to hide front end interface elements (like model selection), helps deployment
   CAS/Single sign on
   - add summaries for long chats rather than removing messages in the middle
+  - move colors/css/etc to config files for deployment
