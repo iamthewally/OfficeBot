@@ -25,9 +25,8 @@ Currently works with OpenAI APIs.
 
 Roadmap:
   - Get accurate token counts using API rather than estimating it to be 1 token per word
-  - Add requirements.txt with pre-reqs.  
-    - For now try to launch and install whatever is missing.  Repeat.  don't worry it'll be cool...
   - Conda env
+  - docker? unraid?
   - Pick a better name
   - Build out extensions 
     - slash /commands to get the system's attention
