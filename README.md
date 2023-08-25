@@ -28,6 +28,7 @@ Roadmap:
   - Add requirements.txt with pre-reqs.  
     - For now try to launch and install whatever is missing.  Repeat.  don't worry it'll be cool...
   - Conda env
+  - Pick a better name
   - Build out extensions 
     - slash /commands to get the system's attention
   - Local LLM usage (targetting starcoder first), option to keep everything private
